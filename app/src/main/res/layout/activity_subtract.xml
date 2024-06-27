@@ -1,0 +1,49 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="25px"
+    android:gravity="center"
+    android:background="#3A3535"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number 1"
+        android:textSize="17dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number1"
+        android:inputType="number"
+        android:background="#CD999595"
+        android:id="@+id/num11"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number 2"
+        android:textSize="17dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number2"
+        android:id="@+id/num22"
+        android:inputType="number"
+        android:background="#CD999595"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20px"
+        android:text="SUBTRACT"
+        android:id="@+id/subtracting"
+        android:background="#F8F2F2"
+        android:textColor="#000000"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RETURN TO MENU"
+        android:id="@+id/returnss"
+        android:layout_margin="20px"
+        android:background="#F8F2F2"
+        android:textColor="#000000"/>
+</LinearLayout>
